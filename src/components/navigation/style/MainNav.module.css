@@ -1,0 +1,49 @@
+.nav_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 20px;
+}
+
+.nav_logo a {
+    color: black;
+    text-decoration: none;
+    font-family: "Lora";
+    font-weight: 400;
+}
+
+.nav_list {
+    display: flex;
+    gap: 50px;
+
+    list-style: none;
+}
+
+.nav_list li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav_cart {
+    margin-right: 20px;
+}
+
+.nav_icon {
+    height: 25px;
+}
+
+.nav_cart_amount {
+    position: absolute;
+    top: 18px;
+    right: 32px;
+    width: 15px;
+    height: 15px;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
