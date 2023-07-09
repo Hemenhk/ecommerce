@@ -1,0 +1,46 @@
+.form_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+    height: 200px;
+}
+
+.container {
+    display: flex;
+    
+}
+
+.email_input {
+    border: none;
+    border-bottom: 1px solid grey;
+    padding: 8px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.btn_container {
+
+}
+
+.btn {
+    border: none;
+    border-radius: 2px;
+
+    background-color: #000;
+    color: #fff;
+    
+    font-family: "Inter";
+    font-size: 0.8rem;
+    font-weight: 700;
+
+    padding: 15px 90px;
+    cursor: pointer;
+    transition: .3s ease-out;
+}
+
+.btn:hover {
+    background-color: rgba(160, 65, 34, 0.73);
+}

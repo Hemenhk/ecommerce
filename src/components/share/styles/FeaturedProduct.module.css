@@ -37,3 +37,7 @@
 .btn:hover {
   background-color: rgba(160, 65, 34, 0.73);
 }
+
+.featured_cursor {
+  cursor: pointer;
+}

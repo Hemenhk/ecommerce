@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 500px;
+}
+
+.container p {
+  font-family: "Inter";
+  font-size: 1rem;
+
+  margin-bottom: 40px;
+}
+
+.btn_container {
+  display: flex;
+}
+
+.btn {
+  border: none;
+  border-radius: 2px;
+
+  font-family: "Inter";
+  font-size: 0.8rem;
+  font-weight: 700;
+
+  background-color: #000;
+  color: #fff;
+
+  padding: 20px 60px;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+}
+
+.btn:hover {
+  background-color: rgba(160, 65, 34, 0.73);
+}

@@ -2,8 +2,8 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 import css from "./style/MainNav.module.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
+import CartIcon from "../cartIcon/CartIcon.js";
+
 
 const MainNav = () => {
   return (
@@ -19,16 +19,13 @@ const MainNav = () => {
             <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <NavLink to="/">Shop</NavLink>
+            <NavLink to="/shop">Shop</NavLink>
           </li>
           <li>
             <NavLink to="/">About</NavLink>
           </li>
         </ul>
-        <div className={css.nav_cart}>
-          <FontAwesomeIcon icon={faCartShopping} className={css.nav_icon} />
-          <div className={css.nav_cart_amount}>5</div>
-        </div>
+        <CartIcon />
       </nav>
     </div>
   );

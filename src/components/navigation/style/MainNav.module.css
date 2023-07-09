@@ -4,6 +4,8 @@
     align-items: center;
 
     margin: 0 20px;
+
+    border-bottom: 1px solid #0000004f;
 }
 
 .nav_logo a {
@@ -25,25 +27,3 @@
     color: black;
 }
 
-.nav_cart {
-    margin-right: 20px;
-}
-
-.nav_icon {
-    height: 25px;
-}
-
-.nav_cart_amount {
-    position: absolute;
-    top: 18px;
-    right: 32px;
-    width: 15px;
-    height: 15px;
-    color: white;
-    background-color: red;
-    border-radius: 50%;
-
-    font-size: 12px;
-    display: flex;
-    justify-content: center;
-}

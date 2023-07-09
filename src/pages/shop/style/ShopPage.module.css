@@ -1,0 +1,22 @@
+.shop_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.h2 {
+    text-align: center;
+}
+
+.shop_products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px 20px;
+}
+
+.shop_link {
+    text-decoration: none;
+    color: #000;
+}
